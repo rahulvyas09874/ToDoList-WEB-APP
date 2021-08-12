@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
-var items= ["Go for a morning run", "Have Healthy Breakfast", "Do DSA"];
+var items= [];
 let workitems=[];
 
 
